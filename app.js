@@ -17,9 +17,7 @@ let numero;
 for (let i = 0; i < quantidade; i++) {
     numero = obterNumeroAleatorio(de, ate);
     
-    while (sorteados.includes(numero)) {
-        numero = obterNumeroAleatorio(de, ate);
-        alert ('Não tem como fazer isso, QUER AZARALHAR MEU SORTEADOR!?');
+   
     }
 
     sorteados.push(numero);
